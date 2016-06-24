@@ -1,0 +1,86 @@
+epsilon = bias^2 + var + sigma^2_y
+
+limit variance by using a large sample size
+
+bias - how you collect the data
+
+
+mean squared error - summation of (y - yhat)^2)/n
+
+
+residuals - each instance of the distance between a dot and its model line
+so sum of residuals squared is mean squared error
+
+so a density plot of residuals would create a normal distribution
+
+R^2 =  1 - (Sum Squared Error/ Sum Squared Deviations from Y mean)
+
+--------------------------------------------------------------------
+t test
+
+alpha value is the standard for saying you have discovered a relationship(data)
+
+Alpha sets the standard for how extreme the data must be before we can reject the null
+hypothesis. The p-value indicates how extreme the data are. We compare the p-value with the
+alpha to determine whether the observed data are statistically significantly different from the null
+hypothesis:
+If the p-value is less than or equal to the alpha (p< .05), then we reject the null hypothesis, and
+we say the result is statistically significant.
+
+If the p-value is greater than alpha (p > .05), then we fail to reject the null hypothesis, and we say
+that the result is statistically nonsignificant (n.s.).
+
+------------------------------------------------------------------------
+
+http://scott.fortmann-roe.com/docs/BiasVariance.html
+
+------------------------------------------------------------------------
+
+1. Bias
+2. Variance
+3. Error
+4. Residuals
+5. Model
+6. Regression
+
+tendency for values to trend toward the mean Parent child height relationship experiment
+
+7. Generalization
+8. Over/Underfit
+9. Lasso/Ridge Reg
+
+Lv1 Lasso beta
+- zero out small independant var
+- simplifies complexity
+- reduces multicolinearity
+
+Lv2 Ridge beta^2
+- penalizes stronger variables mores
+
+10. MSE
+11. SSE / SST
+12. RMSE vs MAE
+13. R vs R^2
+
+R is the correleation coefficient range between -1 to 1
+R^2 is coefficient of determination goodness of fit
+
+14. Cross Validation
+15. Train-Test-Split
+
+-------------------------------------------------------------------------
+
+1 check for colinearity
+    df.corr
+    check correlation between predictors
+    scatter plot
+    scater of response vs predictors
+
+2.Build Complete model
+    look at summary
+    find significance of whole model
+    + of individual predictors (P-value, confidence interval)
+    if whole model significant And
+    each predictor is significant
+    else remove insignificant predictor
+    and build reduced model
