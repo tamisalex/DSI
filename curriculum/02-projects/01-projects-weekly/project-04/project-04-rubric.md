@@ -20,20 +20,17 @@ Acceptable performance for these standards is based on how well you've performed
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
 |---|---|---|---|---|
 | Identify: Problem Statement / Aim | | | | n/a |
-| Acquire: Import Data Using Import.io | | | | *Bonus: Use BeautifulSoup* |
-| Parse: Data Wrangling: clean & organize data | | | | n/a |
-| Mine: Convert & Describe Data | | | | n/a |
-| Refine: Plot Refined Data | | | | n/a |
-| Model: Run Logistic Regression | | | | *Bonus: Description Data, Gridsearch, Multinomial* |
-| Evaluate Logistic Regression | | | | *Bonus: Modify Prediction Threshold* |
-| Model: Run kNN & Evaluate | | | | n/a |
+| Acquire: Import Data Using Requests + BeautifulSoup | | | | n/a |
+| Parse: Clean & Organize Data | | | | n/a |
+| Model: Perform Logistic Regression | | | | n/a |
+| Evaluate: Logistic Regression | | | | *Bonus*: Countvectorizer, Regularization Parameters  |
 | Present: Write a report for your audience addressing findings & recommendations | | | | n\a |
 | *Bonus! Present: Create blog post summary* | | | | n\a |
 
 ---
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **30**  points on this project. Your score is: **#**
+Based on the requirements, you can earn a maximum of  **15**  points on this project. Your score is: **#**
 
 - Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
 
